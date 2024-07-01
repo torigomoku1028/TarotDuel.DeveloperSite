@@ -3,34 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>タロットデュエルデベロッパーサイト</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Cinzel Decorative', serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
         }
         .large {
             font-size: 30px;
             font-weight: bold;
+            color: #800000;
         }
         .medium {
             font-size: 22px;
             font-weight: bold;
+            margin-top: 20px;
+            color: #4b0082;
         }
         .small {
             font-size: 14px;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #00008b;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="large">タロットデュエルデベロッパーサイト</div>
+    
     <div class="medium">アプリストアURL<br>
-    <a href="https://apps.apple.com/jp/app/%E3%82%BF%E3%83%AD%E3%83%83%E3%83%88%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB/id6504130065" target="_blank">https://apps.apple.com/jp/app/%E3%82%BF%E3%83%AD%E3%83%83%E3%83%88%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB/id6504130065</a></div>
+        <a href="https://apps.apple.com/jp/app/%E3%82%BF%E3%83%AD%E3%83%83%E3%83%88%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB/id6504130065" target="_blank">
+            https://apps.apple.com/jp/app/%E3%82%BF%E3%83%AD%E3%83%83%E3%83%88%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB/id6504130065
+        </a>
+    </div>
+    
     <div class="medium">ゲーム概要</div>
-    <div class="small">-タロットデュエル- タロット×心理戦×カードゲーム</div>
-    <div class="small">カード効果を駆使して相手の思考が読みきれ！！さあ、君の力を見てくれ。</div>
-    <div class="small">「タロットデュエル」は、タロットカードの神秘的な力を駆使して、相手との心理戦を繰り広げるカードゲームです。プレイヤーは、10種類のカードを使いこなし、相手の手を読みつつ戦略を練り、勝利を目指します。</div>
-
+    <div class="small">
+        -タロットデュエル- タロット×心理戦×カードゲーム
+    </div>
+    <div class="small">
+        カード効果を駆使して相手の思考が読みきれ！！さあ、君の力を見てくれ。
+    </div>
+    <div class="small">
+        「タロットデュエル」は、タロットカードの神秘的な力を駆使して、相手との心理戦を繰り広げるカードゲームです。プレイヤーは、10種類のカードを使いこなし、相手の手を読みつつ戦略を練り、勝利を目指します。
+    </div>
+    
     <div class="medium">カード概要</div>
-    <div class="small">各プレイヤーは、以下の10枚のカードを手札に持っています</div>
+    <div class="small">
+        各プレイヤーは、以下の10枚のカードを手札に持っています
+    </div>
     <div class="small">
         1. SLAVE: 相手がEMPERORの場合、ライフを3つ奪う<br>
         2. SOLDIER: このターンは引き分け<br>
@@ -43,7 +71,7 @@
         9. HERO: 次のターン自分のカードが+2される<br>
         10. EMPEROR: 相手がSLAVEの場合、ライフを3つ奪われる
     </div>
-
+    
     <div class="small">
         プレイヤーのライフは5つ<br>
         数字の方ターン勝利し、相手のライフを1つる<br>
@@ -52,27 +80,39 @@
         1ターンの時間制限は60秒（CPU戦時間制限なし）<br>
         切れの場合、ランダムにカードが提出される
     </div>
-
+    
     <div class="medium">クイックマッチ</div>
-    <div class="small">クイックマッチは、ランクとレートに関係なく世界中のプレイヤーとリアルタイムで対戦できます。勝敗により、レートとランクが変動します。</div>
-
+    <div class="small">
+        クイックマッチは、ランクとレートに関係なく世界中のプレイヤーとリアルタイムで対戦できます。勝敗により、レートとランクが変動します。
+    </div>
+    
     <div class="medium">フレンドマッチ</div>
-    <div class="small">フレンドマッチは、ルーム番号を取得することで特定のプレイヤーと対戦できます。勝敗はレートやランクに影響しません。</div>
-
+    <div class="small">
+        フレンドマッチは、ルーム番号を取得することで特定のプレイヤーと対戦できます。勝敗はレートやランクに影響しません。
+    </div>
+    
     <div class="medium">CPU マッチ</div>
-    <div class="small">CPU マッチは、カードの効果と戦略を確認するために利用できます。練習と戦略の確認に最適です。</div>
-
+    <div class="small">
+        CPU マッチは、カードの効果と戦略を確認するために利用できます。練習と戦略の確認に最適です。
+    </div>
+    
     <div class="medium">ランキング</div>
-    <div class="small">ランキング機能では、レートの上位10名をリアルタイムで表示します。上位にランクインして、世界中のプレイヤーに実力を示しましょう。</div>
-
+    <div class="small">
+        ランキング機能では、レートの上位10名をリアルタイムで表示します。上位にランクインして、世界中のプレイヤーに実力を示しましょう。
+    </div>
+    
     <div class="medium">ランク</div>
-    <div class="small">プレイヤーのランクは、レートの上昇に応じて変動します。ランクは以下の4段階に分かれます：</div>
+    <div class="small">
+        プレイヤーのランクは、レートの上昇に応じて変動します。ランクは以下の4段階に分かれます：
+    </div>
     <div class="small">
         ビギナー<br>
         ルーキー<br>
         エキスパート<br>
         マスター
     </div>
-    <div class="small">レートの初期値は1000です。対戦を重ねて、最高ランクのマスターを目指しましょう。</div>
+    <div class="small">
+        レートの初期値は1000です。対戦を重ねて、最高ランクのマスターを目指しましょう。
+    </div>
 </body>
 </html>
